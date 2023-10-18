@@ -1,0 +1,77 @@
+﻿<Window x:Class="WpfApp5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Border Background="Yellow" CornerRadius="15">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <ScrollViewer Grid.Column="0">
+                    <StackPanel Grid.Column="0">
+                        <Button
+    x:Name="Btn1"
+    Background="GreenYellow"
+    Click="Btn1_Click1"
+    Content="Задание 1" />
+                        <Button
+    x:Name="Btn2"
+    Background="GreenYellow"
+    Click="Btn2_Click2"
+    Content="Задание 2" />
+                        <Button
+    x:Name="Btn3"
+    Background="GreenYellow"
+    Click="Btn3_Click3"
+    Content="Задание 3" />
+                        <Button
+    x:Name="Btn4"
+    Background="GreenYellow"
+    Click="Btn4_Click4"
+    Content="Задание 4" />
+                        <Button Background="GreenYellow" Content="Задание 5" Click="Btn4_Click5" />
+                        <Button Background="GreenYellow" Content="Задание 6" Click="Btn4_Click6"/>
+                        <Button Background="GreenYellow" Content="Задание 7" Click="Btn4_Click7" />
+                        <Button Background="GreenYellow" Content="Задание 8" Click="Btn4_Click8" />
+                        <Button Background="GreenYellow" Content="Задание 9" Click="Btn4_Click9" />
+                        <Button Background="GreenYellow" Content="Задание 10" Click="Btn4_Click10" />
+                        <Button Background="GreenYellow" Content="Задание 11" Click="Btn1_Click11" />
+                        <Button Background="GreenYellow" Content="Задание 12" Click="Btn4_Click12" />
+                        <Button Background="GreenYellow" Content="Задание 13" Click="Btn4_Click13" />
+                        <Button Background="GreenYellow" Content="Задание 14" Click="Btn4_Click14" />
+                        <Button Background="GreenYellow" Content="Задание 15" Click="Btn4_Click15" />
+                        <Button Background="GreenYellow" Content="Задание 16" Click="Btn4_Click16" />
+                        <Button Background="GreenYellow" Content="Задание 17" Click="Btn4_Click17" />
+                        <Button Background="GreenYellow" Content="Задание 18" Click="Btn4_Click18" />
+                        <Button Background="GreenYellow" Content="Задание 19" Click="Btn4_Click19" />
+                        <Button Background="GreenYellow" Content="Задание 20" Click="Btn4_Click20" />
+                        <Button Background="GreenYellow" Content="Задание 21" Click="Btn4_Click21" />
+                        <Button Background="GreenYellow" Content="Задание 22" Click="Btn4_Click22" />
+                        <Button Background="GreenYellow" Content="Задание 23" Click="Btn4_Click23" />
+                        <Button Background="GreenYellow" Content="Задание 24" Click="Btn4_Click24" />
+                        <Button Background="GreenYellow" Content="Задание 25" Click="Btn4_Click25" />
+                        <Button Background="GreenYellow" Content="Задание 26" Click="Btn4_Click26" />
+                        <Button Background="GreenYellow" Content="Задание 27" Click="Btn4_Click27" />
+                        <Button Background="GreenYellow" Content="Задание 28" Click="Btn4_Click28" />
+                        <Button Background="GreenYellow" Content="Задание 29" Click="Btn4_Click29" />
+                        <Button Background="GreenYellow" Content="Задание 30" Click="Btn4_Click30" />
+                    </StackPanel>
+                </ScrollViewer>
+
+
+
+                <Frame
+                x:Name="MainFrame"
+                Grid.Column="1"
+                NavigationUIVisibility="Hidden" />
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
